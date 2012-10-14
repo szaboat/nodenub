@@ -1,6 +1,6 @@
 var http = require('http');
-var port = process.env.PORT || 6969;
 var commands = require('./commands.js').commands;
+var port = process.env.PORT || 6969;
 
 http.createServer(function (req, res) {
   var sq = require('url').parse(req.url, true).query.cmd.split(' '),
@@ -11,6 +11,6 @@ http.createServer(function (req, res) {
   console.log('You searched for ' + search_url);
   res.writeHead(302, {'Location': search_url});
   res.end();
-}).listen(PORT, "127.0.0.1");
+}).listen(port, "127.0.0.1");
 
-console.log('Running at ' + PORT);
+console.log('Running at ' + port);
