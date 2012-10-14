@@ -1,5 +1,5 @@
 var http = require('http');
-var PORT = 9696;
+var port = process.env.PORT || 6969;
 var commands = require('./commands.js').commands;
 
 http.createServer(function (req, res) {
