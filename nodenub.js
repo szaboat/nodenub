@@ -14,6 +14,8 @@ http.createServer(function (req, res) {
     res.end();
   }
 
+  console.log('search_url ' + search_url);
+
   res.writeHead(302, {'Location': search_url});
   res.end();
 }).listen(port, "0.0.0.0");
