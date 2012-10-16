@@ -1,6 +1,7 @@
 exports.commands = {
   '@': 'http://twitter.com/%s',
   'enhu': 'http://dict.sztaki.hu/dict_search.php?L=ENG%3AHUN%3AEngHunDict&O=ENG&flash=&E=1&in_form=1&W=%s&M=2&P=1&C=1&A=1&T=1&F=0',
+  'd' : 'http://duckduckgo.com/?q=%s',
   'flk': 'http://www.flickr.com/photos/search/text:%s',
   'g': 'http://www.google.com/search?q=%s',
   'gi': 'http://images.google.com/images?q=%s',
