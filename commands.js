@@ -9,6 +9,7 @@ exports.commands = {
   'huen': 'http://dict.sztaki.hu/dict_search.php?L=HUN%3AENG%3AEngHunDict&O=HUN&flash=&E=1&in_form=1&W=%s&M=2&P=1&C=1&A=1&T=1&F=0',
   'lfms': 'http://www.dotblob.com/~szaboat/lastfmsimilar/index.php?artist=%s',
   'ls': 'http://yubnub.org/kernel/ls?args=',
+  'moly': 'http://moly.hu/kereses?utf8=%E2%9C%93&q=%s',
   'so': 'http://stackoverflow.com/search?q=%s',
   'sztaki': 'http://szotar.sztaki.hu/dict_search.php?L=ENG%3AHUN%3AEngHunDict&O=HUN&W=%s',
   'wp': 'http://en.wikipedia.org/?search=%s',
