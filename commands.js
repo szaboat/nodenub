@@ -6,6 +6,7 @@ exports.commands = {
   'g': 'http://www.google.com/search?q=%s',
   'gi': 'http://images.google.com/images?q=%s',
   'gim': 'http://images.google.com/images?q=%s',
+  'gmaps': 'http://maps.google.com/maps?q=%s',
   'huen': 'http://dict.sztaki.hu/dict_search.php?L=HUN%3AENG%3AEngHunDict&O=HUN&flash=&E=1&in_form=1&W=%s&M=2&P=1&C=1&A=1&T=1&F=0',
   'lfms': 'http://www.dotblob.com/~szaboat/lastfmsimilar/index.php?artist=%s',
   'ls': 'http://yubnub.org/kernel/ls?args=',
