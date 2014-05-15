@@ -1,11 +1,11 @@
 # Nodenub
 
-[Yubnub](http://yubnub.org) like server written in node.js.
+Yubnub (http://yubnub.org) like server written in node.js.
 
-Hosted on heroku. [nodenub.herokuapp.com](nodenub.herokuapp.com)
+Hosted on heroku. http://nodenub.herokuapp.com
 
 Set your default search engine to
-```
+
 http://nodenub.herokuapp.com/?cmd=%s
-```
+
 and enjoy the shortcuts.
