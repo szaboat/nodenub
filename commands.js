@@ -17,5 +17,6 @@ exports.commands = {
   'tpb': 'http://thepiratebay.org/search/%s/0/7/0',
   'wp': 'http://en.wikipedia.org/?search=%s',
   'wphu': 'http://hu.wikipedia.org/?search=%s',
-  'yt': 'http://www.youtube.com/results?search_type=search_videos&search_sort=relevance&search_query=%s&search=Search'
+  'yt': 'http://www.youtube.com/results?search_type=search_videos&search_sort=relevance&search_query=%s&search=Search',
+  'hung': 'http://szotar.mokk.bme.hu/hunglish/search/corpus?ql=&qr=%s&n=20&source=all&start=20'
 }
