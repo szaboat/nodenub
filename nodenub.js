@@ -2,7 +2,7 @@ var http = require('http');
 var url = require('url');
 var commands = require('./commands.js').commands;
 
-this.server = http.createServer(function (req, res) {
+exports.server = http.createServer(function (req, res) {
   var searchUrl = '';
   try {
     var sq = url.parse(req.url, true).query.cmd.split(' '),
@@ -24,6 +24,6 @@ exports.listen = function() {
   this.server.listen.apply(this.server, arguments);
 };
 
-exports.close = function() {
- this.server.close();
+exports.close = function(callback) {
+ this.server.close(callback);
 };
