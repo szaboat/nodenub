@@ -18,5 +18,6 @@ exports.commands = {
   'wp': 'http://en.wikipedia.org/?search=%s',
   'wphu': 'http://hu.wikipedia.org/?search=%s',
   'yt': 'http://www.youtube.com/results?search_type=search_videos&search_sort=relevance&search_query=%s&search=Search',
-  'hung': 'http://szotar.mokk.bme.hu/hunglish/search/corpus?ql=&qr=%s&n=20&source=all&start=20'
+  'hung': 'http://szotar.mokk.bme.hu/hunglish/search/corpus?ql=&qr=%s&n=20&source=all&start=20',
+  'ip': 'https://www.google.com/search?q=what%27s%20my%20ip'
 }
